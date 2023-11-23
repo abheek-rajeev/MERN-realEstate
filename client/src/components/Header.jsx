@@ -16,9 +16,9 @@ export default function Header() {
             <FaSearch className="text-slate-600"/>
         </form>
         <ul className="flex gap-4 items-center">
-          <Link to={"/"} className="Hidden sm:inline hover:underline md:text-lg font-semibold "><li >Home</li></Link>
-          <Link to={"/about"} className="Hidden sm:inline hover:underline md:text-lg font-semibold"><li >About</li></Link>
-          <Link to={"/sigin"} className="Hidden sm:inline hover:underline md:text-lg font-semibold "><li >SignIn</li></Link>
+          <Link to={"/"} className="hidden sm:inline hover:underline md:text-lg font-semibold "><li >Home</li></Link>
+          <Link to={"/about"} className="hidden sm:inline hover:underline md:text-lg font-semibold"><li >About</li></Link>
+          <Link to={"/sign-in"} className="hidden sm:inline hover:underline md:text-lg font-semibold "><li >SignIn</li></Link>
         </ul>
     </div>
     </header>
